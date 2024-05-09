@@ -11,7 +11,7 @@ COPY ./nginx.conf /etc/nginx/nginx.conf
 COPY ./src /usr/share/nginx/html
 
 # Expose port 80 to the outside world
-EXPOSE 80
+EXPOSE 8005
 
 # Run nginx in the foreground when the container starts
 CMD ["nginx", "-g", "daemon off;"]
