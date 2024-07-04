@@ -1,6 +1,6 @@
 let allAssets;
 
-    axios.get('http://10.194.20.139:55160/api/allassets', {
+    axios.get('http://10.194.130.65:55160/api/allassets', {
     headers: {
     'Authorization': 'TxaSHFRTL7xNx2H82seWMj5fMbMYXkDM',
     'Content-Type': 'application/json' 
