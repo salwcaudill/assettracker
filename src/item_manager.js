@@ -44,7 +44,7 @@ const submitForm = () => {
         assigned_to: $('#assignedToInput').val()
     }
     console.log(data)
-    axios.post('http://10.194.20.139:55160/api/insertasset', data, {
+    axios.post('http://10.194.130.65:55160/api/insertasset', data, {
         headers: {
             'Authorization': 'TxaSHFRTL7xNx2H82seWMj5fMbMYXkDM',
             'Content-Type': 'application/json'
